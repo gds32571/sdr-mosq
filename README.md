@@ -22,8 +22,7 @@ Reads from SDR dongle, maps ID to mosquitto topic and publishes
 #  To see only the MQTT data from this program on your 
 #  Home Assistant system, try this command:  
 #
-#  mosquitto_sub -v -t 'rtl_433/#'  -u hass -P hass
-#
+#  mosquitto_sub -v -t 'rtl_433/#'
 #  Updated 15 july 2018
 #  Now, don't publish every code that comes across. At every 30 seconds,
 #  they are too frequent.
