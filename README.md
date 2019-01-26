@@ -12,7 +12,7 @@ Reads from SDR dongle, maps ID to mosquitto topic and publishes
   Unlike the earlier bash script I used, this does not require jq to
   be installed on the system. Uses instead the python JSON decoder
 
-  The sensors often transmit their data 2 or 3 times.  Using Runme.sh,
+  The sensors often transmit their data 3 or 4 times per minute. Using Runme.sh,
   you would see all the lines in your MQTT data.  This program removes 
   the duplicate lines
 
