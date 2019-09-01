@@ -1,7 +1,7 @@
 ## sdr-mosq
 Reads from SDR dongle, maps ID to mosquitto topic and publishes
 
-  sdr-mosq.py
+## sdr-mosq-v2.py
 
   7 July 2018
   written by Gerald Swann
@@ -23,11 +23,15 @@ Reads from SDR dongle, maps ID to mosquitto topic and publishes
 
   mosquitto_sub -v -t 'rtl_433/#'
   
-  Updated 15 July 2018
+#### Updated 15 July 2018
+  
   Now, don't publish every code that comes across. At every 30 seconds,
   they are too frequent.
   The program variable "between_time" sets minimum time between packets
   
-  Updated 26 June 2019
+#### Updated 26 June 2019
+## sdr-mosq-v3.py
   New python program is sdr-mosq-v3.py
+
+## sdrlist.py
   List of transmitters is separated into sdrlist.py
